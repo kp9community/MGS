@@ -1,5 +1,29 @@
 <h2>Work Record</h2>
 
+<!-- FILTER -->
+<div class="card">
+  <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+    <input type="date" id="filterDate" class="btn">
+
+    <input 
+      type="text" 
+      id="filterEmployee" 
+      placeholder="Employee ID"
+      class="btn"
+    >
+
+    <button class="btn btn-primary" onclick="applyFilter()">Filter</button>
+    <button class="btn" onclick="resetFilter()">Reset</button>
+  </div>
+</div>
+
+<!-- SUMMARY -->
+<div class="card">
+  <h3>Total Hours</h3>
+  <p id="totalHours">0 ชั่วโมง</p>
+</div>
+
+<!-- TABLE -->
 <div class="card">
   <table class="table">
     <thead>
