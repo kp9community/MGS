@@ -1,0 +1,26 @@
+[
+  {
+    "uid": "mgs manager",
+    "role": "manager",
+    "organization": "Manager Global Services",
+    "type": "person"
+  },
+  {
+    "uid": "staff01",
+    "role": "staff",
+    "organization": "IT Support",
+    "type": "person"
+  },
+  {
+    "uid": "employee01",
+    "role": "employee",
+    "organization": "Development",
+    "type": "person"
+  },
+  {
+    "uid": "ap_server01",
+    "role": "staff",
+    "type": "server",
+    "server_id": "DISCORD-001"
+  }
+]
