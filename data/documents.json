@@ -1,0 +1,16 @@
+[
+  {
+    "id": "DOC-001",
+    "title": "Employee Handbook",
+    "category": "HR",
+    "file_url": "https://example.com/handbook.pdf",
+    "visible_for": ["employee", "staff", "manager"]
+  },
+  {
+    "id": "DOC-002",
+    "title": "Manager Policy",
+    "category": "Policy",
+    "file_url": "https://example.com/manager-policy.pdf",
+    "visible_for": ["manager"]
+  }
+]
